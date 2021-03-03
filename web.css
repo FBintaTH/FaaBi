@@ -1,0 +1,265 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+	list-style: none;
+}
+.navbar{
+	background-color: crimson;
+	width: 100%;
+	position: fixed;
+	padding: 19px 0px;
+}
+.navbar .max-width {
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.logo a {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 500px;
+}
+.Dia {
+	color: black;
+}
+.logo a span {
+	color: #000;
+}
+.menu {
+	margin-top: 10px;
+
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a{
+	color:white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.menu li a:hover{
+	color:#000f
+}
+  
+  .home{
+	height: 800px;
+	background-image: url('IMG_0924.JPG');
+	display: flex;
+}
+.home .max-width{
+	color: #fff;
+	margin: auto 10px; 
+}
+.home .home-content .text-1{
+	font-size: 40px;
+	font-weight: 200;
+
+}
+.home .home-content .text-2{
+	font-size: 30px;
+	font-weight: 600;
+	color: crimson;
+
+}
+.home .home-content .text-3{
+	font-size: 30px;
+	font-weight: 600;
+
+}
+.home .home-content .text-3 span{
+	color: crimson;
+
+}
+.home .home-content .button-one{
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: pink;
+	color: #fff;
+	border: 2px solid crimson;
+	padding: 10px 40px;
+	border-radius: 20px;
+}
+.home .home-content .button-one:hover{
+	background: none;
+}
+
+.about{
+	margin: 50px 150px;
+
+}
+
+.title1{
+	color: : blue;
+}
+
+.about .title1{
+	font-size:35px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline orange;
+	color: blue;
+}
+
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.about .div-left{
+	width: 45%;
+
+}
+
+.about .div-right{
+	width: 55%;
+	
+}
+.about .div-left{
+	height: 450px;
+	width: 400px;
+	border-radius: 6px;
+	
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+
+	
+}
+#thes{
+	color: white;
+}
+
+.text{
+	color: white;
+}
+
+.about .div-right .text span{
+	color: crimson;	
+}
+
+.about .div-right p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.about .about-content .button-two{
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: crimson;
+.	color: white;
+	border: 2px solid crimson;
+	padding: 10px 40px;
+}
+
+img{
+	width: 55%;
+	height: 55%;
+	margin-left: 35px;
+	border: solid yellow;
+}
+
+
+
+/*******************************************************************************************************************************/
+img{
+  width: 55%;
+  height: 65%;
+  margin: 35px;
+  border: solid yellow;
+
+}
+#nom {
+	font-size: 50px;
+}
+
+#ih {
+	background-image: url("IMG_0935.JPG");
+}
+
+#my-team{
+	margin-top: 10px;
+	background-color: white;
+	background-color: #DEB887;
+}
+#my-team h1{
+	font-family: dollie script personal use;
+	font-size: 40px;
+	text-decoration: underline red;
+}
+#my-team table {
+	margin-top: 15px;
+	margin: 150px;
+	margin-bottom: 15px;
+}
+#my-team td {
+	background-color: grey;
+	border-radius: 2%;
+	color: white;
+	align-content: center;
+}
+#my-team img{
+	margin-top: 10px;
+	border-radius: 100%;
+	height: 250px;
+	width: 250px;
+	border: solid crimson 5px;
+}
+
+/*******************************/
+
+.Get .GetContent{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFF8DC; 
+	border: 2px solid white;
+	padding-left: 50px;
+	padding-right: 50px
+
+}
+
+.Get .GetContent .right{
+	width: 400px;
+	
+
+}
+ .Get .GetContent .left {
+ 	width: 500px;
+ }
+.Get .GetContent .left .button{
+	
+	font-size:25px;
+	border-radius: 9px;
+	border: 5px solid crimson;
+	background-color: crimson;
+	color: white;
+}
+.Get .GetContent .left .button:hover {
+	color: black;
+
+}
+.down .downcontent {
+	background-color: aqua;
+	color: black;
+	font-size: 35px;
+	border-radius: 5px;
+}
+
+
+
+
+
+ 
